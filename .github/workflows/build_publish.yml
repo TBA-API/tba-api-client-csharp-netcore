@@ -38,8 +38,8 @@ jobs:
     - name: Create the package
       run: dotnet pack --configuration Release TBAAPI.V3Client.sln
 
-#    - name: Publish the package to NuGet
-#      run: dotnet nuget push <my project>/bin/Release/*.nupkg
+    - name: Publish the package to NuGet
+      run: dotnet nuget push src/TBAAPI.V3Client/bin/Release/*.nupkg
 
 #    - name: Test
 #      shell: sh
