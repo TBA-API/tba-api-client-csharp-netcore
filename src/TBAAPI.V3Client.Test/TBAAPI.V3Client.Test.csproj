@@ -1,37 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
-The Blue Alliance API v3
-
-# Overview    Information and statistics about FIRST Robotics Competition teams and events.   # Authentication   All endpoints require an Auth Key to be passed in the header `X-TBA-Auth-Key`. If you do not have an auth key yet, you can obtain one from your [Account Page](/account).    A `User-Agent` header may need to be set to prevent a 403 Unauthorized error.
-
-The version of the OpenAPI document: 3.8.0
-
--->
 <Project Sdk="Microsoft.NET.Sdk">
+
   <PropertyGroup>
-    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TBAAPI.V3Client.Test</RootNamespace>
     <AssemblyName>TBAAPI.V3Client.Test</AssemblyName>
+    <RootNamespace>TBAAPI.V3Client.Test</RootNamespace>
     <TargetFramework>netcoreapp2.0</TargetFramework>
     <IsPackable>false</IsPackable>
-    <FileAlignment>512</FileAlignment>
   </PropertyGroup>
-  <ItemGroup>
-      <PackageReference Include="CompareNETObjects" Version="4.57.0" />
-      <PackageReference Include="JsonSubTypes" Version="1.5.2" />
-      <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
-      <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />
-      <PackageReference Include="xunit" Version="2.4.1" />
-      <PackageReference Include="xunit.runner.visualstudio" Version="2.4.1" />
-      <PackageReference Include="RestSharp" Version="106.10.1" />
-      <PackageReference Include="System.ComponentModel.Annotations" Version="4.5.0" />
-  </ItemGroup>
-  <ItemGroup>
-      <ProjectReference Include="..\TBAAPI.V3Client\TBAAPI.V3Client.csproj">
-          <Project>62BADEDE-E7D9-48EA-95BF-79D7812A5068</Project>
-          <Name>TBAAPI.V3Client</Name>
-      </ProjectReference>
-  </ItemGroup>
-</Project>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />
+    <PackageReference Include="xunit" Version="2.4.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TBAAPI.V3Client\TBAAPI.V3Client.csproj" />
+  </ItemGroup>
+
+</Project>
