@@ -46,11 +46,11 @@ namespace TBAAPI.V3Client.Model
         public DistrictList(string abbreviation = default(string), string displayName = default(string), string key = default(string), int year = default(int))
         {
             // to ensure "abbreviation" is required (not null)
-            this.Abbreviation = abbreviation ?? throw new ArgumentNullException("abbreviation is a required property for DistrictList and cannot be null");;
+            this.Abbreviation = abbreviation ?? throw new ArgumentNullException("abbreviation is a required property for DistrictList and cannot be null");
             // to ensure "displayName" is required (not null)
-            this.DisplayName = displayName ?? throw new ArgumentNullException("displayName is a required property for DistrictList and cannot be null");;
+            this.DisplayName = displayName ?? throw new ArgumentNullException("displayName is a required property for DistrictList and cannot be null");
             // to ensure "key" is required (not null)
-            this.Key = key ?? throw new ArgumentNullException("key is a required property for DistrictList and cannot be null");;
+            this.Key = key ?? throw new ArgumentNullException("key is a required property for DistrictList and cannot be null");
             this.Year = year;
         }
         

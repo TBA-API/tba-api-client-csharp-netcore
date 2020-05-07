@@ -47,7 +47,7 @@ namespace TBAAPI.V3Client.Model
         public DistrictRanking(string teamKey = default(string), int rank = default(int), int rookieBonus = default(int), int pointTotal = default(int), List<DistrictRankingEventPoints> eventPoints = default(List<DistrictRankingEventPoints>))
         {
             // to ensure "teamKey" is required (not null)
-            this.TeamKey = teamKey ?? throw new ArgumentNullException("teamKey is a required property for DistrictRanking and cannot be null");;
+            this.TeamKey = teamKey ?? throw new ArgumentNullException("teamKey is a required property for DistrictRanking and cannot be null");
             this.Rank = rank;
             this.PointTotal = pointTotal;
             this.RookieBonus = rookieBonus;

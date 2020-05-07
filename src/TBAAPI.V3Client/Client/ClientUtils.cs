@@ -160,7 +160,7 @@ namespace TBAAPI.V3Client.Client
         public static String SelectHeaderContentType(String[] contentTypes)
         {
             if (contentTypes.Length == 0)
-                return "application/json";
+                return null;
 
             foreach (var contentType in contentTypes)
             {

@@ -866,10 +866,11 @@ namespace TBAAPI.V3Client.Api
             var localVarAccept = TBAAPI.V3Client.Client.ClientUtils.SelectHeaderAccept(_accepts);
             if (localVarAccept != null) localVarRequestOptions.HeaderParameters.Add("Accept", localVarAccept);
 
-            if (eventKey != null)
-                localVarRequestOptions.PathParameters.Add("event_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(eventKey)); // path parameter
+            localVarRequestOptions.PathParameters.Add("event_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(eventKey)); // path parameter
             if (ifModifiedSince != null)
+            {
                 localVarRequestOptions.HeaderParameters.Add("If-Modified-Since", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(ifModifiedSince)); // header parameter
+            }
 
             // authentication (apiKey) required
             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-TBA-Auth-Key")))
@@ -933,10 +934,11 @@ namespace TBAAPI.V3Client.Api
             foreach (var _accept in _accepts)
                 localVarRequestOptions.HeaderParameters.Add("Accept", _accept);
             
-            if (eventKey != null)
-                localVarRequestOptions.PathParameters.Add("event_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(eventKey)); // path parameter
+            localVarRequestOptions.PathParameters.Add("event_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(eventKey)); // path parameter
             if (ifModifiedSince != null)
+            {
                 localVarRequestOptions.HeaderParameters.Add("If-Modified-Since", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(ifModifiedSince)); // header parameter
+            }
 
             // authentication (apiKey) required
             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-TBA-Auth-Key")))
@@ -999,10 +1001,11 @@ namespace TBAAPI.V3Client.Api
             var localVarAccept = TBAAPI.V3Client.Client.ClientUtils.SelectHeaderAccept(_accepts);
             if (localVarAccept != null) localVarRequestOptions.HeaderParameters.Add("Accept", localVarAccept);
 
-            if (eventKey != null)
-                localVarRequestOptions.PathParameters.Add("event_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(eventKey)); // path parameter
+            localVarRequestOptions.PathParameters.Add("event_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(eventKey)); // path parameter
             if (ifModifiedSince != null)
+            {
                 localVarRequestOptions.HeaderParameters.Add("If-Modified-Since", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(ifModifiedSince)); // header parameter
+            }
 
             // authentication (apiKey) required
             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-TBA-Auth-Key")))
@@ -1066,10 +1069,11 @@ namespace TBAAPI.V3Client.Api
             foreach (var _accept in _accepts)
                 localVarRequestOptions.HeaderParameters.Add("Accept", _accept);
             
-            if (eventKey != null)
-                localVarRequestOptions.PathParameters.Add("event_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(eventKey)); // path parameter
+            localVarRequestOptions.PathParameters.Add("event_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(eventKey)); // path parameter
             if (ifModifiedSince != null)
+            {
                 localVarRequestOptions.HeaderParameters.Add("If-Modified-Since", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(ifModifiedSince)); // header parameter
+            }
 
             // authentication (apiKey) required
             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-TBA-Auth-Key")))
@@ -1132,10 +1136,11 @@ namespace TBAAPI.V3Client.Api
             var localVarAccept = TBAAPI.V3Client.Client.ClientUtils.SelectHeaderAccept(_accepts);
             if (localVarAccept != null) localVarRequestOptions.HeaderParameters.Add("Accept", localVarAccept);
 
-            if (eventKey != null)
-                localVarRequestOptions.PathParameters.Add("event_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(eventKey)); // path parameter
+            localVarRequestOptions.PathParameters.Add("event_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(eventKey)); // path parameter
             if (ifModifiedSince != null)
+            {
                 localVarRequestOptions.HeaderParameters.Add("If-Modified-Since", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(ifModifiedSince)); // header parameter
+            }
 
             // authentication (apiKey) required
             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-TBA-Auth-Key")))
@@ -1199,10 +1204,11 @@ namespace TBAAPI.V3Client.Api
             foreach (var _accept in _accepts)
                 localVarRequestOptions.HeaderParameters.Add("Accept", _accept);
             
-            if (eventKey != null)
-                localVarRequestOptions.PathParameters.Add("event_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(eventKey)); // path parameter
+            localVarRequestOptions.PathParameters.Add("event_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(eventKey)); // path parameter
             if (ifModifiedSince != null)
+            {
                 localVarRequestOptions.HeaderParameters.Add("If-Modified-Since", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(ifModifiedSince)); // header parameter
+            }
 
             // authentication (apiKey) required
             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-TBA-Auth-Key")))
@@ -1265,10 +1271,11 @@ namespace TBAAPI.V3Client.Api
             var localVarAccept = TBAAPI.V3Client.Client.ClientUtils.SelectHeaderAccept(_accepts);
             if (localVarAccept != null) localVarRequestOptions.HeaderParameters.Add("Accept", localVarAccept);
 
-            if (eventKey != null)
-                localVarRequestOptions.PathParameters.Add("event_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(eventKey)); // path parameter
+            localVarRequestOptions.PathParameters.Add("event_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(eventKey)); // path parameter
             if (ifModifiedSince != null)
+            {
                 localVarRequestOptions.HeaderParameters.Add("If-Modified-Since", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(ifModifiedSince)); // header parameter
+            }
 
             // authentication (apiKey) required
             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-TBA-Auth-Key")))
@@ -1332,10 +1339,11 @@ namespace TBAAPI.V3Client.Api
             foreach (var _accept in _accepts)
                 localVarRequestOptions.HeaderParameters.Add("Accept", _accept);
             
-            if (eventKey != null)
-                localVarRequestOptions.PathParameters.Add("event_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(eventKey)); // path parameter
+            localVarRequestOptions.PathParameters.Add("event_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(eventKey)); // path parameter
             if (ifModifiedSince != null)
+            {
                 localVarRequestOptions.HeaderParameters.Add("If-Modified-Since", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(ifModifiedSince)); // header parameter
+            }
 
             // authentication (apiKey) required
             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-TBA-Auth-Key")))
@@ -1398,10 +1406,11 @@ namespace TBAAPI.V3Client.Api
             var localVarAccept = TBAAPI.V3Client.Client.ClientUtils.SelectHeaderAccept(_accepts);
             if (localVarAccept != null) localVarRequestOptions.HeaderParameters.Add("Accept", localVarAccept);
 
-            if (matchKey != null)
-                localVarRequestOptions.PathParameters.Add("match_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(matchKey)); // path parameter
+            localVarRequestOptions.PathParameters.Add("match_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(matchKey)); // path parameter
             if (ifModifiedSince != null)
+            {
                 localVarRequestOptions.HeaderParameters.Add("If-Modified-Since", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(ifModifiedSince)); // header parameter
+            }
 
             // authentication (apiKey) required
             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-TBA-Auth-Key")))
@@ -1465,10 +1474,11 @@ namespace TBAAPI.V3Client.Api
             foreach (var _accept in _accepts)
                 localVarRequestOptions.HeaderParameters.Add("Accept", _accept);
             
-            if (matchKey != null)
-                localVarRequestOptions.PathParameters.Add("match_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(matchKey)); // path parameter
+            localVarRequestOptions.PathParameters.Add("match_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(matchKey)); // path parameter
             if (ifModifiedSince != null)
+            {
                 localVarRequestOptions.HeaderParameters.Add("If-Modified-Since", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(ifModifiedSince)); // header parameter
+            }
 
             // authentication (apiKey) required
             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-TBA-Auth-Key")))
@@ -1531,10 +1541,11 @@ namespace TBAAPI.V3Client.Api
             var localVarAccept = TBAAPI.V3Client.Client.ClientUtils.SelectHeaderAccept(_accepts);
             if (localVarAccept != null) localVarRequestOptions.HeaderParameters.Add("Accept", localVarAccept);
 
-            if (matchKey != null)
-                localVarRequestOptions.PathParameters.Add("match_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(matchKey)); // path parameter
+            localVarRequestOptions.PathParameters.Add("match_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(matchKey)); // path parameter
             if (ifModifiedSince != null)
+            {
                 localVarRequestOptions.HeaderParameters.Add("If-Modified-Since", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(ifModifiedSince)); // header parameter
+            }
 
             // authentication (apiKey) required
             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-TBA-Auth-Key")))
@@ -1598,10 +1609,11 @@ namespace TBAAPI.V3Client.Api
             foreach (var _accept in _accepts)
                 localVarRequestOptions.HeaderParameters.Add("Accept", _accept);
             
-            if (matchKey != null)
-                localVarRequestOptions.PathParameters.Add("match_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(matchKey)); // path parameter
+            localVarRequestOptions.PathParameters.Add("match_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(matchKey)); // path parameter
             if (ifModifiedSince != null)
+            {
                 localVarRequestOptions.HeaderParameters.Add("If-Modified-Since", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(ifModifiedSince)); // header parameter
+            }
 
             // authentication (apiKey) required
             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-TBA-Auth-Key")))
@@ -1664,10 +1676,11 @@ namespace TBAAPI.V3Client.Api
             var localVarAccept = TBAAPI.V3Client.Client.ClientUtils.SelectHeaderAccept(_accepts);
             if (localVarAccept != null) localVarRequestOptions.HeaderParameters.Add("Accept", localVarAccept);
 
-            if (matchKey != null)
-                localVarRequestOptions.PathParameters.Add("match_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(matchKey)); // path parameter
+            localVarRequestOptions.PathParameters.Add("match_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(matchKey)); // path parameter
             if (ifModifiedSince != null)
+            {
                 localVarRequestOptions.HeaderParameters.Add("If-Modified-Since", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(ifModifiedSince)); // header parameter
+            }
 
             // authentication (apiKey) required
             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-TBA-Auth-Key")))
@@ -1731,10 +1744,11 @@ namespace TBAAPI.V3Client.Api
             foreach (var _accept in _accepts)
                 localVarRequestOptions.HeaderParameters.Add("Accept", _accept);
             
-            if (matchKey != null)
-                localVarRequestOptions.PathParameters.Add("match_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(matchKey)); // path parameter
+            localVarRequestOptions.PathParameters.Add("match_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(matchKey)); // path parameter
             if (ifModifiedSince != null)
+            {
                 localVarRequestOptions.HeaderParameters.Add("If-Modified-Since", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(ifModifiedSince)); // header parameter
+            }
 
             // authentication (apiKey) required
             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-TBA-Auth-Key")))
@@ -1797,10 +1811,11 @@ namespace TBAAPI.V3Client.Api
             var localVarAccept = TBAAPI.V3Client.Client.ClientUtils.SelectHeaderAccept(_accepts);
             if (localVarAccept != null) localVarRequestOptions.HeaderParameters.Add("Accept", localVarAccept);
 
-            if (matchKey != null)
-                localVarRequestOptions.PathParameters.Add("match_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(matchKey)); // path parameter
+            localVarRequestOptions.PathParameters.Add("match_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(matchKey)); // path parameter
             if (ifModifiedSince != null)
+            {
                 localVarRequestOptions.HeaderParameters.Add("If-Modified-Since", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(ifModifiedSince)); // header parameter
+            }
 
             // authentication (apiKey) required
             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-TBA-Auth-Key")))
@@ -1864,10 +1879,11 @@ namespace TBAAPI.V3Client.Api
             foreach (var _accept in _accepts)
                 localVarRequestOptions.HeaderParameters.Add("Accept", _accept);
             
-            if (matchKey != null)
-                localVarRequestOptions.PathParameters.Add("match_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(matchKey)); // path parameter
+            localVarRequestOptions.PathParameters.Add("match_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(matchKey)); // path parameter
             if (ifModifiedSince != null)
+            {
                 localVarRequestOptions.HeaderParameters.Add("If-Modified-Since", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(ifModifiedSince)); // header parameter
+            }
 
             // authentication (apiKey) required
             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-TBA-Auth-Key")))
@@ -1936,12 +1952,12 @@ namespace TBAAPI.V3Client.Api
             var localVarAccept = TBAAPI.V3Client.Client.ClientUtils.SelectHeaderAccept(_accepts);
             if (localVarAccept != null) localVarRequestOptions.HeaderParameters.Add("Accept", localVarAccept);
 
-            if (teamKey != null)
-                localVarRequestOptions.PathParameters.Add("team_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(teamKey)); // path parameter
-            if (eventKey != null)
-                localVarRequestOptions.PathParameters.Add("event_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(eventKey)); // path parameter
+            localVarRequestOptions.PathParameters.Add("team_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(teamKey)); // path parameter
+            localVarRequestOptions.PathParameters.Add("event_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(eventKey)); // path parameter
             if (ifModifiedSince != null)
+            {
                 localVarRequestOptions.HeaderParameters.Add("If-Modified-Since", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(ifModifiedSince)); // header parameter
+            }
 
             // authentication (apiKey) required
             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-TBA-Auth-Key")))
@@ -2011,12 +2027,12 @@ namespace TBAAPI.V3Client.Api
             foreach (var _accept in _accepts)
                 localVarRequestOptions.HeaderParameters.Add("Accept", _accept);
             
-            if (teamKey != null)
-                localVarRequestOptions.PathParameters.Add("team_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(teamKey)); // path parameter
-            if (eventKey != null)
-                localVarRequestOptions.PathParameters.Add("event_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(eventKey)); // path parameter
+            localVarRequestOptions.PathParameters.Add("team_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(teamKey)); // path parameter
+            localVarRequestOptions.PathParameters.Add("event_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(eventKey)); // path parameter
             if (ifModifiedSince != null)
+            {
                 localVarRequestOptions.HeaderParameters.Add("If-Modified-Since", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(ifModifiedSince)); // header parameter
+            }
 
             // authentication (apiKey) required
             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-TBA-Auth-Key")))
@@ -2085,12 +2101,12 @@ namespace TBAAPI.V3Client.Api
             var localVarAccept = TBAAPI.V3Client.Client.ClientUtils.SelectHeaderAccept(_accepts);
             if (localVarAccept != null) localVarRequestOptions.HeaderParameters.Add("Accept", localVarAccept);
 
-            if (teamKey != null)
-                localVarRequestOptions.PathParameters.Add("team_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(teamKey)); // path parameter
-            if (eventKey != null)
-                localVarRequestOptions.PathParameters.Add("event_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(eventKey)); // path parameter
+            localVarRequestOptions.PathParameters.Add("team_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(teamKey)); // path parameter
+            localVarRequestOptions.PathParameters.Add("event_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(eventKey)); // path parameter
             if (ifModifiedSince != null)
+            {
                 localVarRequestOptions.HeaderParameters.Add("If-Modified-Since", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(ifModifiedSince)); // header parameter
+            }
 
             // authentication (apiKey) required
             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-TBA-Auth-Key")))
@@ -2160,12 +2176,12 @@ namespace TBAAPI.V3Client.Api
             foreach (var _accept in _accepts)
                 localVarRequestOptions.HeaderParameters.Add("Accept", _accept);
             
-            if (teamKey != null)
-                localVarRequestOptions.PathParameters.Add("team_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(teamKey)); // path parameter
-            if (eventKey != null)
-                localVarRequestOptions.PathParameters.Add("event_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(eventKey)); // path parameter
+            localVarRequestOptions.PathParameters.Add("team_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(teamKey)); // path parameter
+            localVarRequestOptions.PathParameters.Add("event_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(eventKey)); // path parameter
             if (ifModifiedSince != null)
+            {
                 localVarRequestOptions.HeaderParameters.Add("If-Modified-Since", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(ifModifiedSince)); // header parameter
+            }
 
             // authentication (apiKey) required
             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-TBA-Auth-Key")))
@@ -2234,12 +2250,12 @@ namespace TBAAPI.V3Client.Api
             var localVarAccept = TBAAPI.V3Client.Client.ClientUtils.SelectHeaderAccept(_accepts);
             if (localVarAccept != null) localVarRequestOptions.HeaderParameters.Add("Accept", localVarAccept);
 
-            if (teamKey != null)
-                localVarRequestOptions.PathParameters.Add("team_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(teamKey)); // path parameter
-            if (eventKey != null)
-                localVarRequestOptions.PathParameters.Add("event_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(eventKey)); // path parameter
+            localVarRequestOptions.PathParameters.Add("team_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(teamKey)); // path parameter
+            localVarRequestOptions.PathParameters.Add("event_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(eventKey)); // path parameter
             if (ifModifiedSince != null)
+            {
                 localVarRequestOptions.HeaderParameters.Add("If-Modified-Since", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(ifModifiedSince)); // header parameter
+            }
 
             // authentication (apiKey) required
             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-TBA-Auth-Key")))
@@ -2309,12 +2325,12 @@ namespace TBAAPI.V3Client.Api
             foreach (var _accept in _accepts)
                 localVarRequestOptions.HeaderParameters.Add("Accept", _accept);
             
-            if (teamKey != null)
-                localVarRequestOptions.PathParameters.Add("team_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(teamKey)); // path parameter
-            if (eventKey != null)
-                localVarRequestOptions.PathParameters.Add("event_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(eventKey)); // path parameter
+            localVarRequestOptions.PathParameters.Add("team_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(teamKey)); // path parameter
+            localVarRequestOptions.PathParameters.Add("event_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(eventKey)); // path parameter
             if (ifModifiedSince != null)
+            {
                 localVarRequestOptions.HeaderParameters.Add("If-Modified-Since", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(ifModifiedSince)); // header parameter
+            }
 
             // authentication (apiKey) required
             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-TBA-Auth-Key")))
@@ -2379,11 +2395,12 @@ namespace TBAAPI.V3Client.Api
             var localVarAccept = TBAAPI.V3Client.Client.ClientUtils.SelectHeaderAccept(_accepts);
             if (localVarAccept != null) localVarRequestOptions.HeaderParameters.Add("Accept", localVarAccept);
 
-            if (teamKey != null)
-                localVarRequestOptions.PathParameters.Add("team_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(teamKey)); // path parameter
+            localVarRequestOptions.PathParameters.Add("team_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(teamKey)); // path parameter
             localVarRequestOptions.PathParameters.Add("year", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(year)); // path parameter
             if (ifModifiedSince != null)
+            {
                 localVarRequestOptions.HeaderParameters.Add("If-Modified-Since", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(ifModifiedSince)); // header parameter
+            }
 
             // authentication (apiKey) required
             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-TBA-Auth-Key")))
@@ -2449,11 +2466,12 @@ namespace TBAAPI.V3Client.Api
             foreach (var _accept in _accepts)
                 localVarRequestOptions.HeaderParameters.Add("Accept", _accept);
             
-            if (teamKey != null)
-                localVarRequestOptions.PathParameters.Add("team_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(teamKey)); // path parameter
+            localVarRequestOptions.PathParameters.Add("team_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(teamKey)); // path parameter
             localVarRequestOptions.PathParameters.Add("year", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(year)); // path parameter
             if (ifModifiedSince != null)
+            {
                 localVarRequestOptions.HeaderParameters.Add("If-Modified-Since", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(ifModifiedSince)); // header parameter
+            }
 
             // authentication (apiKey) required
             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-TBA-Auth-Key")))
@@ -2518,11 +2536,12 @@ namespace TBAAPI.V3Client.Api
             var localVarAccept = TBAAPI.V3Client.Client.ClientUtils.SelectHeaderAccept(_accepts);
             if (localVarAccept != null) localVarRequestOptions.HeaderParameters.Add("Accept", localVarAccept);
 
-            if (teamKey != null)
-                localVarRequestOptions.PathParameters.Add("team_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(teamKey)); // path parameter
+            localVarRequestOptions.PathParameters.Add("team_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(teamKey)); // path parameter
             localVarRequestOptions.PathParameters.Add("year", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(year)); // path parameter
             if (ifModifiedSince != null)
+            {
                 localVarRequestOptions.HeaderParameters.Add("If-Modified-Since", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(ifModifiedSince)); // header parameter
+            }
 
             // authentication (apiKey) required
             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-TBA-Auth-Key")))
@@ -2588,11 +2607,12 @@ namespace TBAAPI.V3Client.Api
             foreach (var _accept in _accepts)
                 localVarRequestOptions.HeaderParameters.Add("Accept", _accept);
             
-            if (teamKey != null)
-                localVarRequestOptions.PathParameters.Add("team_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(teamKey)); // path parameter
+            localVarRequestOptions.PathParameters.Add("team_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(teamKey)); // path parameter
             localVarRequestOptions.PathParameters.Add("year", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(year)); // path parameter
             if (ifModifiedSince != null)
+            {
                 localVarRequestOptions.HeaderParameters.Add("If-Modified-Since", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(ifModifiedSince)); // header parameter
+            }
 
             // authentication (apiKey) required
             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-TBA-Auth-Key")))
@@ -2657,11 +2677,12 @@ namespace TBAAPI.V3Client.Api
             var localVarAccept = TBAAPI.V3Client.Client.ClientUtils.SelectHeaderAccept(_accepts);
             if (localVarAccept != null) localVarRequestOptions.HeaderParameters.Add("Accept", localVarAccept);
 
-            if (teamKey != null)
-                localVarRequestOptions.PathParameters.Add("team_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(teamKey)); // path parameter
+            localVarRequestOptions.PathParameters.Add("team_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(teamKey)); // path parameter
             localVarRequestOptions.PathParameters.Add("year", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(year)); // path parameter
             if (ifModifiedSince != null)
+            {
                 localVarRequestOptions.HeaderParameters.Add("If-Modified-Since", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(ifModifiedSince)); // header parameter
+            }
 
             // authentication (apiKey) required
             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-TBA-Auth-Key")))
@@ -2727,11 +2748,12 @@ namespace TBAAPI.V3Client.Api
             foreach (var _accept in _accepts)
                 localVarRequestOptions.HeaderParameters.Add("Accept", _accept);
             
-            if (teamKey != null)
-                localVarRequestOptions.PathParameters.Add("team_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(teamKey)); // path parameter
+            localVarRequestOptions.PathParameters.Add("team_key", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(teamKey)); // path parameter
             localVarRequestOptions.PathParameters.Add("year", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(year)); // path parameter
             if (ifModifiedSince != null)
+            {
                 localVarRequestOptions.HeaderParameters.Add("If-Modified-Since", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(ifModifiedSince)); // header parameter
+            }
 
             // authentication (apiKey) required
             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-TBA-Auth-Key")))

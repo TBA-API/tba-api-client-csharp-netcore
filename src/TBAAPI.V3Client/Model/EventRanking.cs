@@ -45,9 +45,9 @@ namespace TBAAPI.V3Client.Model
         public EventRanking(List<EventRankingRankings> rankings = default(List<EventRankingRankings>), List<EventRankingExtraStatsInfo> extraStatsInfo = default(List<EventRankingExtraStatsInfo>), List<EventRankingSortOrderInfo> sortOrderInfo = default(List<EventRankingSortOrderInfo>))
         {
             // to ensure "rankings" is required (not null)
-            this.Rankings = rankings ?? throw new ArgumentNullException("rankings is a required property for EventRanking and cannot be null");;
+            this.Rankings = rankings ?? throw new ArgumentNullException("rankings is a required property for EventRanking and cannot be null");
             // to ensure "sortOrderInfo" is required (not null)
-            this.SortOrderInfo = sortOrderInfo ?? throw new ArgumentNullException("sortOrderInfo is a required property for EventRanking and cannot be null");;
+            this.SortOrderInfo = sortOrderInfo ?? throw new ArgumentNullException("sortOrderInfo is a required property for EventRanking and cannot be null");
             this.ExtraStatsInfo = extraStatsInfo;
         }
         

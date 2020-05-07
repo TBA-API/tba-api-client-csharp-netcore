@@ -94,29 +94,29 @@ namespace TBAAPI.V3Client.Model
             this.AverageWinMargin = averageWinMargin;
             this.AverageWinScore = averageWinScore;
             // to ensure "highKpa" is required (not null)
-            this.HighKpa = highKpa ?? throw new ArgumentNullException("highKpa is a required property for EventInsights2017 and cannot be null");;
+            this.HighKpa = highKpa ?? throw new ArgumentNullException("highKpa is a required property for EventInsights2017 and cannot be null");
             // to ensure "highScore" is required (not null)
-            this.HighScore = highScore ?? throw new ArgumentNullException("highScore is a required property for EventInsights2017 and cannot be null");;
+            this.HighScore = highScore ?? throw new ArgumentNullException("highScore is a required property for EventInsights2017 and cannot be null");
             // to ensure "kpaAchieved" is required (not null)
-            this.KpaAchieved = kpaAchieved ?? throw new ArgumentNullException("kpaAchieved is a required property for EventInsights2017 and cannot be null");;
+            this.KpaAchieved = kpaAchieved ?? throw new ArgumentNullException("kpaAchieved is a required property for EventInsights2017 and cannot be null");
             // to ensure "mobilityCounts" is required (not null)
-            this.MobilityCounts = mobilityCounts ?? throw new ArgumentNullException("mobilityCounts is a required property for EventInsights2017 and cannot be null");;
+            this.MobilityCounts = mobilityCounts ?? throw new ArgumentNullException("mobilityCounts is a required property for EventInsights2017 and cannot be null");
             // to ensure "rotor1Engaged" is required (not null)
-            this.Rotor1Engaged = rotor1Engaged ?? throw new ArgumentNullException("rotor1Engaged is a required property for EventInsights2017 and cannot be null");;
+            this.Rotor1Engaged = rotor1Engaged ?? throw new ArgumentNullException("rotor1Engaged is a required property for EventInsights2017 and cannot be null");
             // to ensure "rotor1EngagedAuto" is required (not null)
-            this.Rotor1EngagedAuto = rotor1EngagedAuto ?? throw new ArgumentNullException("rotor1EngagedAuto is a required property for EventInsights2017 and cannot be null");;
+            this.Rotor1EngagedAuto = rotor1EngagedAuto ?? throw new ArgumentNullException("rotor1EngagedAuto is a required property for EventInsights2017 and cannot be null");
             // to ensure "rotor2Engaged" is required (not null)
-            this.Rotor2Engaged = rotor2Engaged ?? throw new ArgumentNullException("rotor2Engaged is a required property for EventInsights2017 and cannot be null");;
+            this.Rotor2Engaged = rotor2Engaged ?? throw new ArgumentNullException("rotor2Engaged is a required property for EventInsights2017 and cannot be null");
             // to ensure "rotor2EngagedAuto" is required (not null)
-            this.Rotor2EngagedAuto = rotor2EngagedAuto ?? throw new ArgumentNullException("rotor2EngagedAuto is a required property for EventInsights2017 and cannot be null");;
+            this.Rotor2EngagedAuto = rotor2EngagedAuto ?? throw new ArgumentNullException("rotor2EngagedAuto is a required property for EventInsights2017 and cannot be null");
             // to ensure "rotor3Engaged" is required (not null)
-            this.Rotor3Engaged = rotor3Engaged ?? throw new ArgumentNullException("rotor3Engaged is a required property for EventInsights2017 and cannot be null");;
+            this.Rotor3Engaged = rotor3Engaged ?? throw new ArgumentNullException("rotor3Engaged is a required property for EventInsights2017 and cannot be null");
             // to ensure "rotor4Engaged" is required (not null)
-            this.Rotor4Engaged = rotor4Engaged ?? throw new ArgumentNullException("rotor4Engaged is a required property for EventInsights2017 and cannot be null");;
+            this.Rotor4Engaged = rotor4Engaged ?? throw new ArgumentNullException("rotor4Engaged is a required property for EventInsights2017 and cannot be null");
             // to ensure "takeoffCounts" is required (not null)
-            this.TakeoffCounts = takeoffCounts ?? throw new ArgumentNullException("takeoffCounts is a required property for EventInsights2017 and cannot be null");;
+            this.TakeoffCounts = takeoffCounts ?? throw new ArgumentNullException("takeoffCounts is a required property for EventInsights2017 and cannot be null");
             // to ensure "unicornMatches" is required (not null)
-            this.UnicornMatches = unicornMatches ?? throw new ArgumentNullException("unicornMatches is a required property for EventInsights2017 and cannot be null");;
+            this.UnicornMatches = unicornMatches ?? throw new ArgumentNullException("unicornMatches is a required property for EventInsights2017 and cannot be null");
         }
         
         /// <summary>

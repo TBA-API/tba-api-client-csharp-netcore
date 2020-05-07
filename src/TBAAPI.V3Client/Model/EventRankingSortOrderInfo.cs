@@ -45,7 +45,7 @@ namespace TBAAPI.V3Client.Model
         {
             this.Precision = precision;
             // to ensure "name" is required (not null)
-            this.Name = name ?? throw new ArgumentNullException("name is a required property for EventRankingSortOrderInfo and cannot be null");;
+            this.Name = name ?? throw new ArgumentNullException("name is a required property for EventRankingSortOrderInfo and cannot be null");
         }
         
         /// <summary>

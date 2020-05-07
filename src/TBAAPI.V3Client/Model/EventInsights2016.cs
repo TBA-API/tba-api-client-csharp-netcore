@@ -66,33 +66,33 @@ namespace TBAAPI.V3Client.Model
         public EventInsights2016(List<float> lowBar = default(List<float>), List<float> aChevalDeFrise = default(List<float>), List<float> aPortcullis = default(List<float>), List<float> bRamparts = default(List<float>), List<float> bMoat = default(List<float>), List<float> cSallyPort = default(List<float>), List<float> cDrawbridge = default(List<float>), List<float> dRoughTerrain = default(List<float>), List<float> dRockWall = default(List<float>), float averageHighGoals = default(float), float averageLowGoals = default(float), List<float> breaches = default(List<float>), List<float> scales = default(List<float>), List<float> challenges = default(List<float>), List<float> captures = default(List<float>), float averageWinScore = default(float), float averageWinMargin = default(float), float averageScore = default(float), float averageAutoScore = default(float), float averageCrossingScore = default(float), float averageBoulderScore = default(float), float averageTowerScore = default(float), float averageFoulScore = default(float), List<string> highScore = default(List<string>))
         {
             // to ensure "lowBar" is required (not null)
-            this.LowBar = lowBar ?? throw new ArgumentNullException("lowBar is a required property for EventInsights2016 and cannot be null");;
+            this.LowBar = lowBar ?? throw new ArgumentNullException("lowBar is a required property for EventInsights2016 and cannot be null");
             // to ensure "aChevalDeFrise" is required (not null)
-            this.AChevalDeFrise = aChevalDeFrise ?? throw new ArgumentNullException("aChevalDeFrise is a required property for EventInsights2016 and cannot be null");;
+            this.AChevalDeFrise = aChevalDeFrise ?? throw new ArgumentNullException("aChevalDeFrise is a required property for EventInsights2016 and cannot be null");
             // to ensure "aPortcullis" is required (not null)
-            this.APortcullis = aPortcullis ?? throw new ArgumentNullException("aPortcullis is a required property for EventInsights2016 and cannot be null");;
+            this.APortcullis = aPortcullis ?? throw new ArgumentNullException("aPortcullis is a required property for EventInsights2016 and cannot be null");
             // to ensure "bRamparts" is required (not null)
-            this.BRamparts = bRamparts ?? throw new ArgumentNullException("bRamparts is a required property for EventInsights2016 and cannot be null");;
+            this.BRamparts = bRamparts ?? throw new ArgumentNullException("bRamparts is a required property for EventInsights2016 and cannot be null");
             // to ensure "bMoat" is required (not null)
-            this.BMoat = bMoat ?? throw new ArgumentNullException("bMoat is a required property for EventInsights2016 and cannot be null");;
+            this.BMoat = bMoat ?? throw new ArgumentNullException("bMoat is a required property for EventInsights2016 and cannot be null");
             // to ensure "cSallyPort" is required (not null)
-            this.CSallyPort = cSallyPort ?? throw new ArgumentNullException("cSallyPort is a required property for EventInsights2016 and cannot be null");;
+            this.CSallyPort = cSallyPort ?? throw new ArgumentNullException("cSallyPort is a required property for EventInsights2016 and cannot be null");
             // to ensure "cDrawbridge" is required (not null)
-            this.CDrawbridge = cDrawbridge ?? throw new ArgumentNullException("cDrawbridge is a required property for EventInsights2016 and cannot be null");;
+            this.CDrawbridge = cDrawbridge ?? throw new ArgumentNullException("cDrawbridge is a required property for EventInsights2016 and cannot be null");
             // to ensure "dRoughTerrain" is required (not null)
-            this.DRoughTerrain = dRoughTerrain ?? throw new ArgumentNullException("dRoughTerrain is a required property for EventInsights2016 and cannot be null");;
+            this.DRoughTerrain = dRoughTerrain ?? throw new ArgumentNullException("dRoughTerrain is a required property for EventInsights2016 and cannot be null");
             // to ensure "dRockWall" is required (not null)
-            this.DRockWall = dRockWall ?? throw new ArgumentNullException("dRockWall is a required property for EventInsights2016 and cannot be null");;
+            this.DRockWall = dRockWall ?? throw new ArgumentNullException("dRockWall is a required property for EventInsights2016 and cannot be null");
             this.AverageHighGoals = averageHighGoals;
             this.AverageLowGoals = averageLowGoals;
             // to ensure "breaches" is required (not null)
-            this.Breaches = breaches ?? throw new ArgumentNullException("breaches is a required property for EventInsights2016 and cannot be null");;
+            this.Breaches = breaches ?? throw new ArgumentNullException("breaches is a required property for EventInsights2016 and cannot be null");
             // to ensure "scales" is required (not null)
-            this.Scales = scales ?? throw new ArgumentNullException("scales is a required property for EventInsights2016 and cannot be null");;
+            this.Scales = scales ?? throw new ArgumentNullException("scales is a required property for EventInsights2016 and cannot be null");
             // to ensure "challenges" is required (not null)
-            this.Challenges = challenges ?? throw new ArgumentNullException("challenges is a required property for EventInsights2016 and cannot be null");;
+            this.Challenges = challenges ?? throw new ArgumentNullException("challenges is a required property for EventInsights2016 and cannot be null");
             // to ensure "captures" is required (not null)
-            this.Captures = captures ?? throw new ArgumentNullException("captures is a required property for EventInsights2016 and cannot be null");;
+            this.Captures = captures ?? throw new ArgumentNullException("captures is a required property for EventInsights2016 and cannot be null");
             this.AverageWinScore = averageWinScore;
             this.AverageWinMargin = averageWinMargin;
             this.AverageScore = averageScore;
@@ -102,7 +102,7 @@ namespace TBAAPI.V3Client.Model
             this.AverageTowerScore = averageTowerScore;
             this.AverageFoulScore = averageFoulScore;
             // to ensure "highScore" is required (not null)
-            this.HighScore = highScore ?? throw new ArgumentNullException("highScore is a required property for EventInsights2016 and cannot be null");;
+            this.HighScore = highScore ?? throw new ArgumentNullException("highScore is a required property for EventInsights2016 and cannot be null");
         }
         
         /// <summary>

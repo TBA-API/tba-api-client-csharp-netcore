@@ -235,7 +235,9 @@ namespace TBAAPI.V3Client.Api
             if (localVarAccept != null) localVarRequestOptions.HeaderParameters.Add("Accept", localVarAccept);
 
             if (ifModifiedSince != null)
+            {
                 localVarRequestOptions.HeaderParameters.Add("If-Modified-Since", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(ifModifiedSince)); // header parameter
+            }
 
             // authentication (apiKey) required
             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-TBA-Auth-Key")))
@@ -294,7 +296,9 @@ namespace TBAAPI.V3Client.Api
                 localVarRequestOptions.HeaderParameters.Add("Accept", _accept);
             
             if (ifModifiedSince != null)
+            {
                 localVarRequestOptions.HeaderParameters.Add("If-Modified-Since", TBAAPI.V3Client.Client.ClientUtils.ParameterToString(ifModifiedSince)); // header parameter
+            }
 
             // authentication (apiKey) required
             if (!String.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("X-TBA-Auth-Key")))

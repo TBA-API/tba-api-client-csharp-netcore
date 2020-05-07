@@ -79,7 +79,7 @@ namespace TBAAPI.V3Client.Model
         public EventInsights2018(List<float> autoQuestAchieved = default(List<float>), float averageBoostPlayed = default(float), float averageEndgamePoints = default(float), float averageForcePlayed = default(float), float averageFoulScore = default(float), float averagePointsAuto = default(float), float averagePointsTeleop = default(float), float averageRunPointsAuto = default(float), float averageScaleOwnershipPoints = default(float), float averageScaleOwnershipPointsAuto = default(float), float averageScaleOwnershipPointsTeleop = default(float), float averageScore = default(float), float averageSwitchOwnershipPoints = default(float), float averageSwitchOwnershipPointsAuto = default(float), float averageSwitchOwnershipPointsTeleop = default(float), float averageVaultPoints = default(float), float averageWinMargin = default(float), float averageWinScore = default(float), List<float> boostPlayedCounts = default(List<float>), List<float> climbCounts = default(List<float>), List<float> faceTheBossAchieved = default(List<float>), List<float> forcePlayedCounts = default(List<float>), List<string> highScore = default(List<string>), List<float> levitatePlayedCounts = default(List<float>), List<float> runCountsAuto = default(List<float>), float scaleNeutralPercentage = default(float), float scaleNeutralPercentageAuto = default(float), float scaleNeutralPercentageTeleop = default(float), List<float> switchOwnedCountsAuto = default(List<float>), List<float> unicornMatches = default(List<float>), float winningOppSwitchDenialPercentageTeleop = default(float), float winningOwnSwitchOwnershipPercentage = default(float), float winningOwnSwitchOwnershipPercentageAuto = default(float), float winningOwnSwitchOwnershipPercentageTeleop = default(float), float winningScaleOwnershipPercentage = default(float), float winningScaleOwnershipPercentageAuto = default(float), float winningScaleOwnershipPercentageTeleop = default(float))
         {
             // to ensure "autoQuestAchieved" is required (not null)
-            this.AutoQuestAchieved = autoQuestAchieved ?? throw new ArgumentNullException("autoQuestAchieved is a required property for EventInsights2018 and cannot be null");;
+            this.AutoQuestAchieved = autoQuestAchieved ?? throw new ArgumentNullException("autoQuestAchieved is a required property for EventInsights2018 and cannot be null");
             this.AverageBoostPlayed = averageBoostPlayed;
             this.AverageEndgamePoints = averageEndgamePoints;
             this.AverageForcePlayed = averageForcePlayed;
@@ -98,26 +98,26 @@ namespace TBAAPI.V3Client.Model
             this.AverageWinMargin = averageWinMargin;
             this.AverageWinScore = averageWinScore;
             // to ensure "boostPlayedCounts" is required (not null)
-            this.BoostPlayedCounts = boostPlayedCounts ?? throw new ArgumentNullException("boostPlayedCounts is a required property for EventInsights2018 and cannot be null");;
+            this.BoostPlayedCounts = boostPlayedCounts ?? throw new ArgumentNullException("boostPlayedCounts is a required property for EventInsights2018 and cannot be null");
             // to ensure "climbCounts" is required (not null)
-            this.ClimbCounts = climbCounts ?? throw new ArgumentNullException("climbCounts is a required property for EventInsights2018 and cannot be null");;
+            this.ClimbCounts = climbCounts ?? throw new ArgumentNullException("climbCounts is a required property for EventInsights2018 and cannot be null");
             // to ensure "faceTheBossAchieved" is required (not null)
-            this.FaceTheBossAchieved = faceTheBossAchieved ?? throw new ArgumentNullException("faceTheBossAchieved is a required property for EventInsights2018 and cannot be null");;
+            this.FaceTheBossAchieved = faceTheBossAchieved ?? throw new ArgumentNullException("faceTheBossAchieved is a required property for EventInsights2018 and cannot be null");
             // to ensure "forcePlayedCounts" is required (not null)
-            this.ForcePlayedCounts = forcePlayedCounts ?? throw new ArgumentNullException("forcePlayedCounts is a required property for EventInsights2018 and cannot be null");;
+            this.ForcePlayedCounts = forcePlayedCounts ?? throw new ArgumentNullException("forcePlayedCounts is a required property for EventInsights2018 and cannot be null");
             // to ensure "highScore" is required (not null)
-            this.HighScore = highScore ?? throw new ArgumentNullException("highScore is a required property for EventInsights2018 and cannot be null");;
+            this.HighScore = highScore ?? throw new ArgumentNullException("highScore is a required property for EventInsights2018 and cannot be null");
             // to ensure "levitatePlayedCounts" is required (not null)
-            this.LevitatePlayedCounts = levitatePlayedCounts ?? throw new ArgumentNullException("levitatePlayedCounts is a required property for EventInsights2018 and cannot be null");;
+            this.LevitatePlayedCounts = levitatePlayedCounts ?? throw new ArgumentNullException("levitatePlayedCounts is a required property for EventInsights2018 and cannot be null");
             // to ensure "runCountsAuto" is required (not null)
-            this.RunCountsAuto = runCountsAuto ?? throw new ArgumentNullException("runCountsAuto is a required property for EventInsights2018 and cannot be null");;
+            this.RunCountsAuto = runCountsAuto ?? throw new ArgumentNullException("runCountsAuto is a required property for EventInsights2018 and cannot be null");
             this.ScaleNeutralPercentage = scaleNeutralPercentage;
             this.ScaleNeutralPercentageAuto = scaleNeutralPercentageAuto;
             this.ScaleNeutralPercentageTeleop = scaleNeutralPercentageTeleop;
             // to ensure "switchOwnedCountsAuto" is required (not null)
-            this.SwitchOwnedCountsAuto = switchOwnedCountsAuto ?? throw new ArgumentNullException("switchOwnedCountsAuto is a required property for EventInsights2018 and cannot be null");;
+            this.SwitchOwnedCountsAuto = switchOwnedCountsAuto ?? throw new ArgumentNullException("switchOwnedCountsAuto is a required property for EventInsights2018 and cannot be null");
             // to ensure "unicornMatches" is required (not null)
-            this.UnicornMatches = unicornMatches ?? throw new ArgumentNullException("unicornMatches is a required property for EventInsights2018 and cannot be null");;
+            this.UnicornMatches = unicornMatches ?? throw new ArgumentNullException("unicornMatches is a required property for EventInsights2018 and cannot be null");
             this.WinningOppSwitchDenialPercentageTeleop = winningOppSwitchDenialPercentageTeleop;
             this.WinningOwnSwitchOwnershipPercentage = winningOwnSwitchOwnershipPercentage;
             this.WinningOwnSwitchOwnershipPercentageAuto = winningOwnSwitchOwnershipPercentageAuto;

@@ -53,11 +53,11 @@ namespace TBAAPI.V3Client.Model
         public EventSimple(string key = default(string), string name = default(string), string eventCode = default(string), int eventType = default(int), DistrictList district = default(DistrictList), string city = default(string), string stateProv = default(string), string country = default(string), DateTime startDate = default(DateTime), DateTime endDate = default(DateTime), int year = default(int))
         {
             // to ensure "key" is required (not null)
-            this.Key = key ?? throw new ArgumentNullException("key is a required property for EventSimple and cannot be null");;
+            this.Key = key ?? throw new ArgumentNullException("key is a required property for EventSimple and cannot be null");
             // to ensure "name" is required (not null)
-            this.Name = name ?? throw new ArgumentNullException("name is a required property for EventSimple and cannot be null");;
+            this.Name = name ?? throw new ArgumentNullException("name is a required property for EventSimple and cannot be null");
             // to ensure "eventCode" is required (not null)
-            this.EventCode = eventCode ?? throw new ArgumentNullException("eventCode is a required property for EventSimple and cannot be null");;
+            this.EventCode = eventCode ?? throw new ArgumentNullException("eventCode is a required property for EventSimple and cannot be null");
             this.EventType = eventType;
             this.StartDate = startDate;
             this.EndDate = endDate;

@@ -47,7 +47,7 @@ namespace TBAAPI.V3Client.Model
         public EliminationAlliance(string name = default(string), EliminationAllianceBackup backup = default(EliminationAllianceBackup), List<string> declines = default(List<string>), List<string> picks = default(List<string>), EliminationAllianceStatus status = default(EliminationAllianceStatus))
         {
             // to ensure "picks" is required (not null)
-            this.Picks = picks ?? throw new ArgumentNullException("picks is a required property for EliminationAlliance and cannot be null");;
+            this.Picks = picks ?? throw new ArgumentNullException("picks is a required property for EliminationAlliance and cannot be null");
             this.Name = name;
             this.Backup = backup;
             this.Declines = declines;

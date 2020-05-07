@@ -51,11 +51,11 @@ namespace TBAAPI.V3Client.Model
             this.MaxSeason = maxSeason;
             this.IsDatafeedDown = isDatafeedDown;
             // to ensure "downEvents" is required (not null)
-            this.DownEvents = downEvents ?? throw new ArgumentNullException("downEvents is a required property for APIStatus and cannot be null");;
+            this.DownEvents = downEvents ?? throw new ArgumentNullException("downEvents is a required property for APIStatus and cannot be null");
             // to ensure "ios" is required (not null)
-            this.Ios = ios ?? throw new ArgumentNullException("ios is a required property for APIStatus and cannot be null");;
+            this.Ios = ios ?? throw new ArgumentNullException("ios is a required property for APIStatus and cannot be null");
             // to ensure "android" is required (not null)
-            this.Android = android ?? throw new ArgumentNullException("android is a required property for APIStatus and cannot be null");;
+            this.Android = android ?? throw new ArgumentNullException("android is a required property for APIStatus and cannot be null");
         }
         
         /// <summary>

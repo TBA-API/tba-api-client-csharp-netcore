@@ -61,10 +61,10 @@ namespace TBAAPI.V3Client.Model
         public Team(string key = default(string), int teamNumber = default(int), string nickname = default(string), string name = default(string), string schoolName = default(string), string city = default(string), string stateProv = default(string), string country = default(string), string address = default(string), string postalCode = default(string), string gmapsPlaceId = default(string), string gmapsUrl = default(string), double lat = default(double), double lng = default(double), string locationName = default(string), string website = default(string), int rookieYear = default(int), string motto = default(string), Object homeChampionship = default(Object))
         {
             // to ensure "key" is required (not null)
-            this.Key = key ?? throw new ArgumentNullException("key is a required property for Team and cannot be null");;
+            this.Key = key ?? throw new ArgumentNullException("key is a required property for Team and cannot be null");
             this.TeamNumber = teamNumber;
             // to ensure "name" is required (not null)
-            this.Name = name ?? throw new ArgumentNullException("name is a required property for Team and cannot be null");;
+            this.Name = name ?? throw new ArgumentNullException("name is a required property for Team and cannot be null");
             this.Nickname = nickname;
             this.SchoolName = schoolName;
             this.City = city;

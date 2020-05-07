@@ -72,17 +72,17 @@ namespace TBAAPI.V3Client.Model
         public Event(string key = default(string), string name = default(string), string eventCode = default(string), int eventType = default(int), DistrictList district = default(DistrictList), string city = default(string), string stateProv = default(string), string country = default(string), DateTime startDate = default(DateTime), DateTime endDate = default(DateTime), int year = default(int), string shortName = default(string), string eventTypeString = default(string), int week = default(int), string address = default(string), string postalCode = default(string), string gmapsPlaceId = default(string), string gmapsUrl = default(string), double lat = default(double), double lng = default(double), string locationName = default(string), string timezone = default(string), string website = default(string), string firstEventId = default(string), string firstEventCode = default(string), List<Webcast> webcasts = default(List<Webcast>), List<string> divisionKeys = default(List<string>), string parentEventKey = default(string), int playoffType = default(int), string playoffTypeString = default(string))
         {
             // to ensure "key" is required (not null)
-            this.Key = key ?? throw new ArgumentNullException("key is a required property for Event and cannot be null");;
+            this.Key = key ?? throw new ArgumentNullException("key is a required property for Event and cannot be null");
             // to ensure "name" is required (not null)
-            this.Name = name ?? throw new ArgumentNullException("name is a required property for Event and cannot be null");;
+            this.Name = name ?? throw new ArgumentNullException("name is a required property for Event and cannot be null");
             // to ensure "eventCode" is required (not null)
-            this.EventCode = eventCode ?? throw new ArgumentNullException("eventCode is a required property for Event and cannot be null");;
+            this.EventCode = eventCode ?? throw new ArgumentNullException("eventCode is a required property for Event and cannot be null");
             this.EventType = eventType;
             this.StartDate = startDate;
             this.EndDate = endDate;
             this.Year = year;
             // to ensure "eventTypeString" is required (not null)
-            this.EventTypeString = eventTypeString ?? throw new ArgumentNullException("eventTypeString is a required property for Event and cannot be null");;
+            this.EventTypeString = eventTypeString ?? throw new ArgumentNullException("eventTypeString is a required property for Event and cannot be null");
             this.District = district;
             this.City = city;
             this.StateProv = stateProv;

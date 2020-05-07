@@ -51,11 +51,11 @@ namespace TBAAPI.V3Client.Model
         {
             this.MatchesPlayed = matchesPlayed;
             // to ensure "record" is required (not null)
-            this.Record = record ?? throw new ArgumentNullException("record is a required property for EventRankingRankings and cannot be null");;
+            this.Record = record ?? throw new ArgumentNullException("record is a required property for EventRankingRankings and cannot be null");
             this.Rank = rank;
             this.Dq = dq;
             // to ensure "teamKey" is required (not null)
-            this.TeamKey = teamKey ?? throw new ArgumentNullException("teamKey is a required property for EventRankingRankings and cannot be null");;
+            this.TeamKey = teamKey ?? throw new ArgumentNullException("teamKey is a required property for EventRankingRankings and cannot be null");
             this.QualAverage = qualAverage;
             this.ExtraStats = extraStats;
             this.SortOrders = sortOrders;

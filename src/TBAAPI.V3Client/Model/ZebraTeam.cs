@@ -45,11 +45,11 @@ namespace TBAAPI.V3Client.Model
         public ZebraTeam(string teamKey = default(string), List<double> xs = default(List<double>), List<double> ys = default(List<double>))
         {
             // to ensure "teamKey" is required (not null)
-            this.TeamKey = teamKey ?? throw new ArgumentNullException("teamKey is a required property for ZebraTeam and cannot be null");;
+            this.TeamKey = teamKey ?? throw new ArgumentNullException("teamKey is a required property for ZebraTeam and cannot be null");
             // to ensure "xs" is required (not null)
-            this.Xs = xs ?? throw new ArgumentNullException("xs is a required property for ZebraTeam and cannot be null");;
+            this.Xs = xs ?? throw new ArgumentNullException("xs is a required property for ZebraTeam and cannot be null");
             // to ensure "ys" is required (not null)
-            this.Ys = ys ?? throw new ArgumentNullException("ys is a required property for ZebraTeam and cannot be null");;
+            this.Ys = ys ?? throw new ArgumentNullException("ys is a required property for ZebraTeam and cannot be null");
         }
         
         /// <summary>

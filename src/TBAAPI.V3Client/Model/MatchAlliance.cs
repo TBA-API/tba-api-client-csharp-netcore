@@ -47,7 +47,7 @@ namespace TBAAPI.V3Client.Model
         {
             this.Score = score;
             // to ensure "teamKeys" is required (not null)
-            this.TeamKeys = teamKeys ?? throw new ArgumentNullException("teamKeys is a required property for MatchAlliance and cannot be null");;
+            this.TeamKeys = teamKeys ?? throw new ArgumentNullException("teamKeys is a required property for MatchAlliance and cannot be null");
             this.SurrogateTeamKeys = surrogateTeamKeys;
             this.DqTeamKeys = dqTeamKeys;
         }

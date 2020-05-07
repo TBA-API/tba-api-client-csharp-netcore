@@ -133,12 +133,12 @@ namespace TBAAPI.V3Client.Model
         public Match(string key = default(string), CompLevelEnum compLevel = default(CompLevelEnum), int setNumber = default(int), int matchNumber = default(int), MatchSimpleAlliances alliances = default(MatchSimpleAlliances), WinningAllianceEnum? winningAlliance = default(WinningAllianceEnum?), string eventKey = default(string), long time = default(long), long actualTime = default(long), long predictedTime = default(long), long postResultTime = default(long), Object scoreBreakdown = default(Object), List<MatchVideos> videos = default(List<MatchVideos>))
         {
             // to ensure "key" is required (not null)
-            this.Key = key ?? throw new ArgumentNullException("key is a required property for Match and cannot be null");;
+            this.Key = key ?? throw new ArgumentNullException("key is a required property for Match and cannot be null");
             this.CompLevel = compLevel;
             this.SetNumber = setNumber;
             this.MatchNumber = matchNumber;
             // to ensure "eventKey" is required (not null)
-            this.EventKey = eventKey ?? throw new ArgumentNullException("eventKey is a required property for Match and cannot be null");;
+            this.EventKey = eventKey ?? throw new ArgumentNullException("eventKey is a required property for Match and cannot be null");
             this.Alliances = alliances;
             this.WinningAlliance = winningAlliance;
             this.Time = time;

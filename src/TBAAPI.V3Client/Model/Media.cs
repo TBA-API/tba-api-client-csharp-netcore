@@ -142,7 +142,7 @@ namespace TBAAPI.V3Client.Model
         {
             this.Type = type;
             // to ensure "foreignKey" is required (not null)
-            this.ForeignKey = foreignKey ?? throw new ArgumentNullException("foreignKey is a required property for Media and cannot be null");;
+            this.ForeignKey = foreignKey ?? throw new ArgumentNullException("foreignKey is a required property for Media and cannot be null");
             this.Details = details;
             this.Preferred = preferred;
             this.DirectUrl = directUrl;

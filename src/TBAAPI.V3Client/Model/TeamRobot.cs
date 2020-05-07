@@ -47,11 +47,11 @@ namespace TBAAPI.V3Client.Model
         {
             this.Year = year;
             // to ensure "robotName" is required (not null)
-            this.RobotName = robotName ?? throw new ArgumentNullException("robotName is a required property for TeamRobot and cannot be null");;
+            this.RobotName = robotName ?? throw new ArgumentNullException("robotName is a required property for TeamRobot and cannot be null");
             // to ensure "key" is required (not null)
-            this.Key = key ?? throw new ArgumentNullException("key is a required property for TeamRobot and cannot be null");;
+            this.Key = key ?? throw new ArgumentNullException("key is a required property for TeamRobot and cannot be null");
             // to ensure "teamKey" is required (not null)
-            this.TeamKey = teamKey ?? throw new ArgumentNullException("teamKey is a required property for TeamRobot and cannot be null");;
+            this.TeamKey = teamKey ?? throw new ArgumentNullException("teamKey is a required property for TeamRobot and cannot be null");
         }
         
         /// <summary>

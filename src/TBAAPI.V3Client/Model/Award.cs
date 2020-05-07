@@ -47,12 +47,12 @@ namespace TBAAPI.V3Client.Model
         public Award(string name = default(string), int awardType = default(int), string eventKey = default(string), List<AwardRecipient> recipientList = default(List<AwardRecipient>), int year = default(int))
         {
             // to ensure "name" is required (not null)
-            this.Name = name ?? throw new ArgumentNullException("name is a required property for Award and cannot be null");;
+            this.Name = name ?? throw new ArgumentNullException("name is a required property for Award and cannot be null");
             this.AwardType = awardType;
             // to ensure "eventKey" is required (not null)
-            this.EventKey = eventKey ?? throw new ArgumentNullException("eventKey is a required property for Award and cannot be null");;
+            this.EventKey = eventKey ?? throw new ArgumentNullException("eventKey is a required property for Award and cannot be null");
             // to ensure "recipientList" is required (not null)
-            this.RecipientList = recipientList ?? throw new ArgumentNullException("recipientList is a required property for Award and cannot be null");;
+            this.RecipientList = recipientList ?? throw new ArgumentNullException("recipientList is a required property for Award and cannot be null");
             this.Year = year;
         }
         

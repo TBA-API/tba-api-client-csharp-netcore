@@ -44,7 +44,7 @@ namespace TBAAPI.V3Client.Model
         public EventDistrictPoints(Dictionary<string, EventDistrictPointsPoints> points = default(Dictionary<string, EventDistrictPointsPoints>), Dictionary<string, EventDistrictPointsTiebreakers> tiebreakers = default(Dictionary<string, EventDistrictPointsTiebreakers>))
         {
             // to ensure "points" is required (not null)
-            this.Points = points ?? throw new ArgumentNullException("points is a required property for EventDistrictPoints and cannot be null");;
+            this.Points = points ?? throw new ArgumentNullException("points is a required property for EventDistrictPoints and cannot be null");
             this.Tiebreakers = tiebreakers;
         }
         

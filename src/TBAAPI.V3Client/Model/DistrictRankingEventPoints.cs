@@ -54,7 +54,7 @@ namespace TBAAPI.V3Client.Model
             this.ElimPoints = elimPoints;
             this.AwardPoints = awardPoints;
             // to ensure "eventKey" is required (not null)
-            this.EventKey = eventKey ?? throw new ArgumentNullException("eventKey is a required property for DistrictRankingEventPoints and cannot be null");;
+            this.EventKey = eventKey ?? throw new ArgumentNullException("eventKey is a required property for DistrictRankingEventPoints and cannot be null");
             this.QualPoints = qualPoints;
         }
         

@@ -134,7 +134,7 @@ namespace TBAAPI.V3Client.Model
         {
             this.Type = type;
             // to ensure "channel" is required (not null)
-            this.Channel = channel ?? throw new ArgumentNullException("channel is a required property for Webcast and cannot be null");;
+            this.Channel = channel ?? throw new ArgumentNullException("channel is a required property for Webcast and cannot be null");
             this.Date = date;
             this.File = file;
         }
